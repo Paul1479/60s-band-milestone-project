@@ -45,3 +45,7 @@ nav a:hover {
 img {
   width: 100%;
 }
+
+.social_media_links {
+  class: social_media_links;
+}
