@@ -47,5 +47,6 @@ img {
 }
 
 .social_media_links {
-  class: social_media_links;
+width:75px;
+height:75px;
 }
