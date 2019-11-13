@@ -22,9 +22,30 @@ h1 {
 </style>
 
     <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
   </head>
  <body>
-  <nav>
+   <nav>
  <ul>
 
 <li><a href="index.html">HOME</a></li>
@@ -36,26 +57,18 @@ h1 {
 <li><a href="book-us.html">BOOK US</a></li>
  </ul>
  </nav>
-
-<br>
-
-
-<br>
-<figure>
+ <div class="row">
+  <div class="column" style="background-color:none;">
+    <figure>
 
 <figcaption style="font-weight: bold;background:yellow; width:90px;">Clarksville</figcaption>
 
 <audio controls>
 
 <source src="./audio/Clarksville.mp3" type="audio/mpeg" >
-
-
-
-<br>
-
-</audio>
-</figure>
-<figure>
+  </div>
+  <div class="column" style="background-color:none;">
+    <figure>
 <figcaption style="font-weight: bold;background:yellow; width:110px;">I'm a Believer</figcaption>
 <audio controls>
 
@@ -63,13 +76,18 @@ h1 {
 </audio>
 </figure>
 <figure>
+  </div>
+  <div class="column" style="background-color:none;">
+   <figure>
 <figcaption style="font-weight: bold;background:yellow; width:160px;">Daydream Believer</figcaption>
 <audio controls>
 
 <source src="./audio/DaydreamBeliever.mp3" type="audio/mpeg" >
 </audio>
 </figure>
-<figure>
+  </div>
+  <div class="column" style="background-color:none;">
+   <figure>
 <figcaption style="font-weight: bold;background:yellow; width:140px;">Stepping Stone</figcaption>
 
 <audio controls>
@@ -77,7 +95,9 @@ h1 {
 <source src="./audio/SteppingStone.mp3" type="audio/mpeg" >
 </audio>
 </figure>
- <br>
+
+
+ 
  <br>
 <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-icon.jpg"style= "width:75px;height:75px;margin-left: 10px;"></a>
 <a href="https://www.twitter.com" target="_blank"><img src="./images/Twitter-Download.png"style= "width:75px;height:75px;"></a>
