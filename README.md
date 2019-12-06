@@ -33,10 +33,12 @@ The users can book the group subject to availability on the book us page by ente
 TECHNOLOGIES USED
 The languages used in the creation of this website were HTML5 and CSS3.
 FEATURES LEFT TO IMPLEMENT
-On the Book Us form
+On the Book Us Form
 Details that have been entered will be reset on the clicking of the Reset Details! button. This will be done using JavaScript which is beyond the scope of this project. According to stackoverflow – the link is https://stackoverflow.com/questions/40980932/reset-button-not-working-in-the-form-after-form-submit/40981453
 reset does not work how Paul Rolfe-Barber wants it to which is to clear the contents of the form. As already stated, Javascript would need to be used to accomplish this.
 The details will also have verification methods implemented. EG. You will not be allowed to enter alphanumeric characters in the phone/mobile fields.
+On the Back Catalogue Page
+On the back catalogue page, ways to order and and download and pay for the music will be added. This project is only for a static web site.
 TESTING
 The site has been deployed to the internet and Paul Rolfe-Barber has carried out testing by using the site in a live internet environment as a regular (and not a developer) user.
 DEPLOYMENT
@@ -63,4 +65,3 @@ The site below is an html and css formatter which tidies up (beautifies) the cod
 
 FURTHER ACKNOWLEDGEMENTS
 The phrase “turn on, tune, drop out” displayed on the home page was popularized by the American psychologist Timothy Leary in 1966.
-
