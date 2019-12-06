@@ -34,20 +34,29 @@
     <br>
     <div class="Personal_details" style="margin:10px; width: 250; height: 125; text-align:center;font-weight:bold; color:black;background:yellow">
       <br>
-      <form>
+     <form>
       <span>
-      <label for="name">First Name:</label>
-      <input type="text" name="firstname" id="firstname" size="30px";>
+      <label for="First Name">First Name:</label>
+      <input type="text" name="First Name" id="First Name" size="30px";>
       </span>
       <span>
-      <label for="name">Last name:</label>
-      <input type="text" name="lastname" id="lastname" size="30px";>
+      <label for="Last Name">Last name:</label>
+      <input type="text" name="Last Name" id="Last Name" size="30px";>
       </span>
       <span>
-      <label for="address">Address:</label>
-      <input type="text" name="address" id="address" size ="55px";>
+      <label for="Property Name/Number">Property Name/Number:</label>
+      <input type="text" name="Property Name/Number" id="Property Name/Number" size ="55px";>
+      <label for="Street Name">Street Name:</label>
+      <input type="text" ="Street Name" id="Street Name" size ="55px";>
+      <br><br>
+      <label for="Postcode">Postcode:</label>
+      <input type="text" name="Postcode" id="Postcode" size ="55px";>
+      <label for="City">City:</label>
+      <input type="text" name="City" id="City" size ="55px";>
+      <label for="Country">Country:</label>
+      <input type="text" name="Country" id="Country" size ="55px";>
       </span>
-      <br></br>
+      <br><br>
       <span>
       <label for="telephone">Telephone:</label>
       <input type="number" name="telephone" id="telephone"size="25px";>
@@ -55,8 +64,8 @@
       <span>
       <label for="number">Mobile:</label>
       <input type="tel" name="mobile" id="mobile"size="25px";>
+      <br><br>
       <label for="username">Email:</label>
-      <br />
       <input type="text" name="email" id="email"size="40px";>
       </span>
       <br><br>
@@ -68,8 +77,12 @@
       <label for="requiredlocation">Required location:</label>
       <input type="text" name="requiredlocation" id="requiredlocation"size="55px";>
       </span>
-      <br>
-      <button type="submit" form="nameform" value="Submit">Submit</button>
+      <br><br>
+            <button type="submit" onclick="alert('Thank you for your enquiry. We will be in touch as soon as possible.')">Submit Details!</button>
+      <button type="reset" onclick="alert('Details have been reset. Please enter new details.')">Reset Details!</button>
+      
+      </form>
+
     </div>
     <br>
     <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-icon.jpg"style= "width:75px;height:75px;margin-left: 10px;"></a>
